@@ -12,7 +12,7 @@ SDSS telescopes have captured over 40 TB worth of galaxy images and classificati
 
 ## Files
 
-* **sdss_image_captur.py**: uses the API provided by the Sloan Sky Observatory to get images of elliptical and spiral galaxies
+* **sdss_image_capture.py**: uses the API provided by the Sloan Sky Observatory to get images of elliptical and spiral galaxies
 * **webscrape_image_capture.py**: uses the proxycrawl python package to scrape images of irregular images from Google, also invalid images are scraped using this code (but different search strings)
 * **augmenting_irregular_images.py**: performs data-augmentation on the images of irregular galaxies
 * **combining_dataset.py**: combines the dataset (until this point images of different classes are stored in different formats in different places), resizes the images, standardizes everything.
